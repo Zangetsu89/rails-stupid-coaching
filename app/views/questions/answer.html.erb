@@ -1,0 +1,19 @@
+<div class="answer">
+  <div class="answer_you">
+    <h3>
+      <%= @search %>
+    </h3>
+    <p>You</p>
+  </div>
+
+  <br>
+  <div class="answer_your_coach">
+    <h5>
+      <%= @answer %>
+    </h5>
+    <p>Your coach</p>
+  </div>
+  <br>
+
+  <%= link_to "Ask another question", ask_path, class: "btn btn-warning" %>
+</div>
